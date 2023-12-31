@@ -5,7 +5,7 @@ Please compile the program and run the agent on the local computer and the serve
 
 
 send request:
-application--> local socks5--> tls tunnel--> remote machine--> target website
+application--> local socks5--> tls tunnel--> remote socks5 server --> target website
 
 response to request:
-Target website-->remote machine -->tls tunnel -->local socks5--> application
+Target website-->remote socks5 server -->tls tunnel -->local socks5--> application
